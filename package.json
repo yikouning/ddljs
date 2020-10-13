@@ -1,6 +1,6 @@
 {
-  "name": "node-ddl1",
-  "version": "0.3.3",
+  "name": "node-ddl",
+  "version": "0.3.4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

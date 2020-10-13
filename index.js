@@ -1,5 +1,5 @@
 'use strict';
-const loader  = require('./lib/loader');
+const loader  = require('./lib/main');
 module.exports = {
  
  async tableInfo(connectInfo, tableName,index,remark) {
