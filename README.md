@@ -1,7 +1,7 @@
 ## 使用说明
 1. 此npm包 可以拿到pg数据库中的表的信息，包括表的结构，字段，索引，注释等，类似于navicat中的DDl。
 ## 使用方法
-1. npm i database_table_info 下载之后，直接require调用即可。例如 const tableinfo = require('table_info');
+1. npm i node-ddl 下载之后，直接require调用即可。例如 const tableinfo = require('node-ddl');
 例如：const tableinfoTest = tableInfo.tableInfo(connectInfo, i.tablename, 1, 1, 1);
 2. 此函数一共四个参数(connectInfo, tableName,index,remark)
 分别为数据库连接信息，如{"database":"postgres","host":"127.0.0.1","password":"000000","port":"5432","username":"postgres"}；
